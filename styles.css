@@ -7,6 +7,21 @@ body {
   
 }
 
+.home h1 {
+
+  background-color: #EBD036;
+  background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 5%,
+  rgb(235, 208, 54, 0.2) 100%);
+  background-size: 100%;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color:transparent;
+  font-family: 'Castoro Titling' ;
+
+  }
 
 ul {
   list-style-type: none;
@@ -161,8 +176,8 @@ padding: 0 20px;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 999;
-      height: 72vh;
-      font-size: 1.4rem;
+      height: 80vh;
+      font-size: 1.3rem;
   }
 
   #navbar__logo {
@@ -227,22 +242,57 @@ padding: 0 20px;
 }
 
 .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 
   padding: 10px 20px;
 
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #047018;
-  color: #fff;
+  background-color: #EBD036;
+  background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 5%,
+  rgb(235, 208, 54, 0.2) 100%);
+  color: #131313;
 }
 
 .btn:hover{
-  background: #4837ff;
+  background: #ffe449;
   transition: all 0.3s ease;
+}
+
+.homefront {
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) 60%,
+    rgb(235, 208, 54, 0.2) 100%), url('images/background.jpg'); 
+      background-size: cover; 
+      height:40%; 
+      padding-top:80px; 
+      text-align:center;
+      padding: 10px 15px;
+}
+
+.home {
+  background-image:linear-gradient(to bottom, rgb(235, 208, 54, 0.1) 10%, rgba(0,0,0,1) 100%), 
+  url('images/markussaarni.jpeg'); 
+ /* background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) 60%,
+    rgb(235, 208, 54, 0.2) 100%), url('images/markussaarni.jpeg'); */
+      background-size: cover; 
+      height:40%; 
+      padding-top:80px; 
+      text-align:center;
+      padding: 10px 15px;
+}
+
+.homefront img {
+  max-width: 30%;
+  height: auto;
+  padding-top:80px; 
+
+}
+
+.home img {
+  max-width: 20%;
+  height: auto;
+  padding-top:80px; 
 }
 
 /* Services Section CSS*/
@@ -261,9 +311,6 @@ padding: 0 20px;
   background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 5%,
   rgb(235, 208, 54, 0.2) 100%);
   color: #131313;
-
-
-
   font-family: 'Castoro Titling';
   margin-bottom: 3rem;
   margin-top: 3rem;
@@ -341,6 +388,204 @@ text-align: center;
   rgb(235, 208, 54, 0.2) 100%),
    url('images/7.jpg');
 }
+
+/* records */
+
+.services__cardrecords {
+  margin: 1rem;
+  height: 380px;
+  width: 380px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%), url('images/ASWAALITEOT.webp');
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+.services__cardrecords2 {
+  margin: 1rem;
+  height: 380px;
+  width: 380px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%), url('images/ASADM.webp');
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+.services__cardrecords:nth-child(2) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%),
+   url('images/ASADM.webp');
+ 
+ }
+
+ .services__cardrecords:nth-child(3) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%),
+   url('images/chaoticsanityworship.webp');
+ 
+ }
+
+
+ .services__cardrecords:nth-child(4) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%),
+   url('images/cs-mentalportrait-final.webp');
+ 
+ }
+
+ .services__cardrecords:nth-child(5) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%),
+   url('images/nos-broken-center-final.webp');
+ 
+ }
+
+ .services__cardrecords:nth-child(6) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%),
+   url('images/saunosaunacassette.webp');
+ 
+ }
+
+ .services__cardrecords:nth-child(7) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%),
+   url('images/bloodyheathen-carnalruin-CD-final.webp');
+ 
+ }
+
+ .services__cardrecords:nth-child(8) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%),
+   url('images/rearmederaofprecaritysaarni.webp');
+ 
+ }
+
+ .services__cardrecords:nth-child(9) {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 40%,
+  rgb(235, 208, 54, 0.1) 60%),
+   url('images/Kausalgia-dreamquest-CD.webp');
+ 
+ }
+
+.services__cardrecords p {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+.services__cardrecords2 p {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+.services__cardrecords3 p {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+.services__cardrecords button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #EBD036;
+  background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 30%,
+  rgb(235, 208, 54, 0.1) 100%);
+  position: absolute;
+  top: 340px;
+  left: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
+.services__cardrecords2 button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #EBD036;
+  background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 30%,
+  rgb(235, 208, 54, 0.1) 100%);
+  position: absolute;
+  top: 340px;
+  left: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.services__cardrecords3 button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #EBD036;
+  background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 30%,
+  rgb(235, 208, 54, 0.1) 100%);
+  position: absolute;
+  top: 340px;
+  left: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.services__cardrecords:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;   
+  cursor: pointer;
+  
+}
+
+.services__cardrecords button:hover {
+  background-color: #EBD036;
+  background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 5%,
+  rgb(235, 208, 54, 0.2) 100%);
+transition: all 0.3s ease;
+}
+
+.services__cardrecords2:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;   
+  cursor: pointer;
+}
+
+.services__cardrecords3:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;   
+  cursor: pointer;
+}
+
+@media screen and (max-width:960px) {
+
+  .services__cardrecords h2 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+
+.services__cardrecords {
+  width: 300px 
+}
+
+}
+
+
 
 
 .services h2 {
@@ -513,7 +758,20 @@ transition: all 0.3s ease;
  
   }
 
+  .container button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #EBD036;
+    background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 30%,
+    rgb(235, 208, 54, 0.1) 100%);
 
+    font-size: 1rem;
+    cursor: pointer;
+    
+  }
   
   /* Clear floats after containers */
   .container::after {
@@ -527,13 +785,19 @@ transition: all 0.3s ease;
     float: left;
     margin-right: 20px;
     border-radius: 3%;
-    width: 240px;
+    width: 260px;
+    
+  }
+
+  .container#icons img {
+
+    width: 20%;
     
   }
   
   /* Increase the font-size of a span element */
   .container span {
-    font-size: 22px;
+    font-size: 23px;
     margin-right: 15px;
     background-color: #EBD036;
     background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 5%,
@@ -546,6 +810,17 @@ transition: all 0.3s ease;
     font-family: 'Castoro Titling' ;
   }
   
+  .container p {
+    font-size: 90%;
+
+  }
+
+  .container i {
+   
+  font-size: 90%;
+ 
+  }
+
   .Avatar:hover {
     transform: scale(1.075);
     transition: 0.2s ease-in;   
@@ -586,49 +861,16 @@ transition: all 0.3s ease;
 
   .bottom h1 {
   background-color: #EBD036;
-  font-family: 'Castoro Titling';
+  background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 5%,
+  rgb(235, 208, 54, 0.2) 100%);
+  background-size: 100%;
   margin-bottom: 2rem;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color:transparent;
   }
-/*
-.form {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-}
-
-
-input[type=text] {
-      background-color: #232921;
-      color: white;
-      width:150%;
-    }
-
-input[type=button], input[type=submit], input[type=reset] {
-      background-color: #232921;
-      border: px solid #ccc;;
-      color: white;
-      padding: 16px 32px;
-      text-decoration: none;
-      margin: 4px 2px;
-      cursor: pointer;
-      color: #EBD036;
-      font-family: 'Castoro Titling';
-    
-}
-
-.form label {
-  color: #EBD036;
-
-}
-
-*/
 
 #fcf-form {
   display:block;
@@ -657,9 +899,11 @@ input[type=button], input[type=submit], input[type=reset] {
 
 .fcf-h3 {
   background-color: #EBD036;
-  font-family: 'Castoro Titling';
+  background-image: linear-gradient(to bottom, rgba(33, 33, 31, 0.5) 5%,
+  rgb(235, 208, 54, 0.2) 100%);
+  background-size: 100%;
   margin-bottom: 2rem;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
