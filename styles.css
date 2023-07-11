@@ -785,15 +785,10 @@ transition: all 0.3s ease;
     float: left;
     margin-right: 20px;
     border-radius: 3%;
-    width: 260px;
-    
+    width: 250px;
+  
   }
 
-  .container#icons img {
-
-    width: 20%;
-    
-  }
   
   /* Increase the font-size of a span element */
   .container span {
